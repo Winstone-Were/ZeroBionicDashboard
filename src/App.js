@@ -136,6 +136,16 @@ function App() {
             </IconButton>
           </Toolbar>
           <Divider />
+          <Typography
+              component="h1"
+              variant="h6"
+              color="inherit"
+              noWrap
+              sx={{ flexGrow: 1 }}
+            >
+            Zero Bionic
+            </Typography>
+            <Divider/>
         </Drawer>
         <Box
           component="main"
