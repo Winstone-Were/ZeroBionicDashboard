@@ -2,13 +2,12 @@ import React, { useEffect, useState } from 'react';
 import { Box, Typography, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Paper, Button, IconButton } from '@mui/material';
 import { Link } from 'react-router-dom';
 import DeleteIcon from '@mui/icons-material/Delete';
-import BlockIcon from '@mui/icons-material/Block'; // Import Block icon from Material-UI
-
+import BlockIcon from '@mui/icons-material/Block';
 function Users() {
   const [users, setUsers] = useState([]);
 
   useEffect(() => {
-    // Fetch users when component mounts
+    // Fetch users 
     fetch('http://localhost:3000/admin/listallusers', { method: 'GET' })
       .then(response => response.json())
       .then(data => setUsers(data))
@@ -16,12 +15,12 @@ function Users() {
   }, []);
 
   const handleDeleteUser = (userId) => {
-    // Placeholder for future endpoint connection
+    // yet to implement
     console.log(`Deleting user with ID: ${userId}`);
   };
 
   const handleBanUser = (userId) => {
-    // Placeholder for future endpoint connection
+    //yet to implement
     console.log(`Banning user with ID: ${userId}`);
   };
 

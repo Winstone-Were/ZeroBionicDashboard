@@ -24,8 +24,8 @@ import DashboardIcon from '@mui/icons-material/Dashboard';
 import PeopleIcon from '@mui/icons-material/People';
 import SettingsIcon from '@mui/icons-material/Settings';
 import { BrowserRouter as Router, Route, Routes, Link as RouterLink } from 'react-router-dom';
-import Dashboard from './tabs/Dashboard';
-import Users from './tabs/Users';
+import Dashboard from './tabs/Dashboard/Dashboard';
+import Users from './tabs/Users/Users';
 import Settings from './tabs/Settings';
 import UserDetails from '../src/components/Userdetails';
 

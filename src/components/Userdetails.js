@@ -1,4 +1,3 @@
-// src/components/UserDetails.js
 
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
@@ -8,11 +7,14 @@ function UserDetails() {
   const { userId } = useParams();
   const [user, setUser] = useState(null);
   const [loading, setLoading] = useState(true);
-
+  console.log(userId);
   useEffect(() => {
+    console.log("User Id is",userId)
     // Fetch user details when component mounts
     fetch(`http://localhost:3000/admin/user/${userId}`, { method: 'GET' })
+   
       .then(response => response.json())
+     
       .then(data => {
         setUser(data);
         setLoading(false);
