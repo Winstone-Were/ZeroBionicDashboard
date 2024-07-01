@@ -27,6 +27,7 @@ import { BrowserRouter as Router, Route, Routes, Link as RouterLink } from 'reac
 import Dashboard from './tabs/Dashboard';
 import Users from './tabs/Users';
 import Settings from './tabs/Settings';
+import UserDetails from '../src/components/Userdetails';
 
 function Copyright(props) {
   return (
@@ -184,7 +185,8 @@ function App() {
             <Container maxWidth="lg" sx={{ mt: 4, mb: 4 }}>
               <Routes>
                 <Route path="/" element={<Dashboard />} />
-                <Route path="/users" element={<Users />} />
+                <Route path="/users" element={<Users/>} />
+                <Route path="/users/:uid" element={<UserDetails />} />
                 <Route path="/settings" element={<Settings />} />
               </Routes>
               <Copyright sx={{ pt: 4 }} />
