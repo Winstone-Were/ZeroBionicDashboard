@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+# Zerobionic
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Zerobionic Logo](docs/images/logo.png) 
 
-## Available Scripts
+## Introduction
 
-In the project directory, you can run:
+Zerobionic is an innovative robotic interface designed to enhance STEM education for hearing-impaired students. Our goal is to break down communication barriers and provide equal educational opportunities for deaf and dumb students, both onsite and remotely.
 
-### `npm start`
+## Purpose
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The primary purpose of Zerobionic is to facilitate effective communication and interactive learning for hearing-impaired students in STEM subjects. By leveraging a human arm prosthesis trained on a STEM dataset, Zerobionic transcribes and translates complex STEM concepts in real-time, making them accessible to students who otherwise face significant challenges in these areas.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Problem Statement
 
-### `npm test`
+Traditional education methods often exclude hearing-impaired students from STEM education due to communication barriers and lack of specialized resources. This exclusion limits their career opportunities in fields like engineering, robotics, and IoT.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Solution
 
-### `npm run build`
+Zerobionic addresses this problem through:
+- **Real-time Translation**: Translates spoken words into sign language and vice versa.
+- **Visual Aids**: Uses images and GIFs to illustrate complex STEM concepts.
+- **Remote Learning**: Facilitates education in underserved and remote areas without the need for personal smartphones.
+- **Scalability**: Modular design allows for easy adaptation to various educational settings and regions.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Achievements
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Pilots**: Engaged 78 deaf students in Garissa and Machakos counties, Kenya.
+- **Awards**: Received the Global Learning Council Award.
+- **Media Features**: Highlighted by Kenya Nation TV, Trace Africa, and Strathmore University Engineering School.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Future Goals
 
-### `npm run eject`
+- **Short-term (12-24 months)**: Expand to 20 additional schools in Kenya, enhance technology, and establish strategic partnerships.
+- **Long-term (3-5 years)**: Scale globally, reaching over 100 schools, integrate with educational technologies, and become a leader in inclusive STEM education.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Repository Structure
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```plaintext
+zerobionic/
+├── docs/
+│   ├── images/
+│   │   └── logo.png
+│   └── README.md
+├── src/
+│   ├── hardware/
+│   │   └── ...
+│   ├── software/
+│   │   └── ...
+│   └── ...
+├── tests/
+│   └── ...
+├── LICENSE
+├── README.md
+└── ...
+```
+## Screens 
+### Home
+(docs/images/home.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Home 2
+(docs/images/home2.png)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Account
+(docs/images/account.png)
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Settings
+(docs/images/settings.png)
