@@ -55,13 +55,13 @@ zerobionic/
 ```
 ## Screens 
 ### Home
-(docs/images/home.png)
+![home](docs/images/home.png)
 
 ### Home 2
-(docs/images/home2.png)
+![home2](docs/images/home2.png)
 
 ### Account
-(docs/images/account.png)
+![account](docs/images/account.png)
 
 ### Settings
-(docs/images/settings.png)
+![settings](docs/images/settings.png)
